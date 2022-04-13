@@ -19,7 +19,7 @@ public class Holiday {
         if (first == null || second == null) {
             return false;
         }
-        return first.month == second.month;
+        return first.month.equals(second.month);
     }
 
     public static double avgDate(Holiday[] holidays) {
